@@ -1,0 +1,41 @@
+/* Applique un style de base à la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centrer le contenu dans la page */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style pour le titre */
+h1 {
+    color: #333;
+}
+
+/* Style pour le paragraphe */
+p {
+    color: #555;
+    font-size: 18px;
+}
+
+/* Style pour le bouton */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Changement de couleur du bouton au survol */
+.btn:hover {
+    background-color: #45a049;
+}
