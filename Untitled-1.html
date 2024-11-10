@@ -1,18 +1,39 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Simple</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <title>Simple Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
 <body>
-
-    <div class="container">
-        <h1>Bienvenue sur ma page web</h1>
-        <p>Ceci est un exemple simple de page HTML et CSS.</p>
-        <button class="btn.html">Cliquez ici</button>
-    </div>
-
+    <header>
+        <h1>Welcome to My Simple Web Page </h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="media.html">Social media</a>
+        </nav>
+    </header>
+ 
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the home section of the webpage. It provides an introduction to the content.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This section contains information about the webpage or its creator.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out with any questions or comments!</p>
+        </section>
+    </main>
+ 
+    <footer>
+        <p>&copy; 2024 Simple Web Page. All rights reserved.</p>
+    </footer>
 </body>
 </html>
